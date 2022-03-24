@@ -1,0 +1,43 @@
+// PASSOS PARA CRIAÇÃO DO PROJETO EM NODE JS:
+//https://www.youtube.com/watch?v=EW7m2WIvFgQ&list=PLMdYygf53DP7FJzPslLnmqp0QylyFfA8a&index=1&t=73s
+
+1) CRIA O PACOTE PACKAGE.JSON EM NODE JS
+    npm ini -y
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+2) INSTALAR A DEPENDENCIA DO NODE JS
+    npm install next 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+3) INSTALAR A DEPENDENCIA DO REACT
+    npm install react
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+4) INSTALAR A DEPENDENCIA DO DOM
+    npm install react-dom
+
+*BONUS: PARA FAZER AS INSTALAÕES DO PASSO 2 AO 4 COM UM COMANDO, SERIA:
+npm install next react react-dom
+
+OBS.: TODAS AS INSTALAÇÕES APARECEM DENTRO DO package.json
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+5) DENTRO DO package.json EM "scripts": APAGUE A LINHA "test": "echo \"Error: no test specified\" && exit 1 E COLOQUE "dev": "next dev" FICANCO ASSIM:
+    "scripts": {
+    "dev": "next dev"
+    },
+
+AGORA SEMPRE QUE QUIZER SUBIR O SERVIDOR PARA DESENVOLVER, DIGITE:
+npm run dev
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+6) CRIE UMA PASTA pages E DENTRO DELA CRIE UM ARQUIVO index.js
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+7) DEPOIS DE TER COLOCADO O CÓDIGO NO index.js, BASTA DIGITAR npm run dev PARA VER COMO ESTAMOS
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+8) PARA FAZER O DEPLOY
+
+1 - PARE O SERVIDOR DE DESENVOLVIMENTO
+2 - 
